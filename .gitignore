@@ -1,0 +1,17 @@
+.bin/
+.build/
+.tool/*
+!.tool/nasm
+!.tool/yasm
+!.tool/*.zip
+Library/*/*
+Dependent/*/*
+Dependent/libopenfw/
+!Dependent/rapidxml/*
+!Dependent/rapidjson/*
+!Dependent/*/AutoBuild.cmake
+!Dependent/*/readme.txt
+!Dependent/*/Source_Code.zip
+!Dependent/*/Source_CMake.zip
+!Dependent/*/Source_Code*.zip
+!Dependent/*/Source_CMake*.zip
